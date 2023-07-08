@@ -1,11 +1,9 @@
-import Section from '@/components/Section'
 
 export default function Home() {
+
   return (
     <main >
-      <Section/>
-      <Section/>
-      <Section/>
+      <h1>Greetings 🤡</h1>
     </main>
   )
 }
