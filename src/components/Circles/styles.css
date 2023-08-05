@@ -1,0 +1,42 @@
+.circle-holder{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.circle{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+  
+.circle--red{
+
+    background-color: rgba(255, 0, 0, 0.85);
+    left: 60px;
+    position: relative;
+}
+.circle--purple{
+
+    background-color: rgba(179, 0, 255, 0.85);
+    left: 40px;
+    position: relative;
+}
+.circle--blue{
+    background-color: rgb(0, 106, 255,0.85);
+    left: 25px;
+    position: relative;
+}
+.circle--green{
+
+    background-color: rgba(24, 222, 21, 0.85);
+    left: 10px;
+    position: relative;
+}
+.circle--yellow{
+    background-color: rgb(246, 255, 0, 0.7);
+    right: 5px;
+    position: relative;
+}

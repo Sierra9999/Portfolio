@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem;
+  padding: 4vw;
   min-height: 100vh;
 }
 
@@ -23,4 +23,21 @@
 
 .introduction p {
   text-align: center;
+}
+
+.icon-section{
+  text-align: center;
+}
+
+@media (max-width : 880px){
+  .introduction {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+  } 
+  .icon-section {
+    display: none;
+  }
 }

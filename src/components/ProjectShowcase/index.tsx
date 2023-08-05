@@ -35,6 +35,7 @@ const projects: Project[]  = [
     liveUrl: "https://sierra9999.github.io/country-app/",
     codeUrl: "https://github.com/Sierra9999/country-app",
   },
+  
 ];
 
 const ProjectShowcase = () => {

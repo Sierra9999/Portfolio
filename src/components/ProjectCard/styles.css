@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 5px;
+  height: 275px
 }
 
 .card__holder{
@@ -14,8 +15,15 @@
 }
 
 .card:hover .card__holder {
-  background-color: rgba(75, 75, 75, 0.5);
-  color:  rgba(255, 255, 255, 1);
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(67, 120, 133, 0.3);
+  /* background-color: rgba(75, 75, 75, 0.75); */
+  color:  rgb(27, 23, 23);
 }
 
 .card__description {
