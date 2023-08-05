@@ -1,17 +1,39 @@
 import React from "react";
 import styles from "./styles.module.css";
+import { Project, ProjectCard } from "../ProjectCard";
 
-const projects: {
-  name: string;
-  description: string;
-  liveUrl: string;
-  codeUrl: string;
-} = [
+const projects: Project[]  = [
   {
     name: "Country App",
-    codeUrl : 'https://github.com/Sierra9999/country-app',
-    description : "An app which shows country data, made in React & Typescript using Sass",
-    liveUrl : 'https://sierra9999.github.io/country-app/'
+    imagePath : '/project-countries-app.png',
+    description:
+      "An app which shows country data, made in React & Typescript using Sass",
+    liveUrl: "https://sierra9999.github.io/country-app/",
+    codeUrl: "https://github.com/Sierra9999/country-app",
+  },
+  {
+    name: "Country App",
+    imagePath : '/project-countries-app.png',
+    description:
+      "An app which shows country data, made in React & Typescript using Sass",
+    liveUrl: "https://sierra9999.github.io/country-app/",
+    codeUrl: "https://github.com/Sierra9999/country-app",
+  },
+  {
+    name: "Country App",
+    imagePath : '/project-countries-app.png',
+    description:
+      "An app which shows country data, made in React & Typescript using Sass",
+    liveUrl: "https://sierra9999.github.io/country-app/",
+    codeUrl: "https://github.com/Sierra9999/country-app",
+  },
+  {
+    name: "Country App",
+    imagePath : '/project-countries-app.png',
+    description:
+      "An app which shows country data, made in React & Typescript using Sass",
+    liveUrl: "https://sierra9999.github.io/country-app/",
+    codeUrl: "https://github.com/Sierra9999/country-app",
   },
 ];
 
@@ -20,10 +42,7 @@ const ProjectShowcase = () => {
     <>
       <h1 className={styles["portfolio-title"]}>Portfolio</h1>
       <section className={styles["projects"]}>
-        <div className={styles["projects__card"]}></div>
-        <div className={styles["projects__card"]}></div>
-        <div className={styles["projects__card"]}></div>
-        <div className={styles["projects__card"]}></div>
+        {projects.map(project => <ProjectCard {...project}/>)}
       </section>
     </>
   );

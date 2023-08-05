@@ -16,10 +16,6 @@
   grid-template-rows: auto;
 }
 
-.projects__card {
-  background-color: white;
-}
-
 @media (max-width: 700px) {
   .projects {
     grid-template-columns: auto;

@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 import ProjectShowcase from '@/components/ProjectShowcase'
 
@@ -7,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
         <section className={styles.introduction}>
           <h1 className={styles.name}>Mateo</h1>
-          <p>this will be a description of myself : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices urna sit amet ex mollis, vel varius dolor tincidunt. Nulla facilisi. Nulla facilisi. Suspendisse tristique tortor eget orci fringilla, sit amet rutrum justo consequat. Praesent aliquet eleifend justo, a bibendum dui laoreet ac. Pellentesque eget ullamcorper odio. Ut posuere quam ut quam dapibus, vel consectetur odio ullamcorper. Aenean gravida erat at orci pellentesque facilisis. Vestibulum euismod elit ut sem bibendum</p>
+          <p>I'm a front-end software developer with a passion for digital illustration and blogging. I create user-friendly websites and bring ideas to life through captivating visuals. Welcome to my portfolio where I combine code, art, and storytelling. Let's embark on this creative journey together!</p>
           <p>here we will have some Icons</p>
           <h1>Sierra</h1>
         </section>
