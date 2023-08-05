@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import ProjectShowcase from '@/components/ProjectShowcase'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           <p>here we will have some Icons</p>
           <h1>Sierra</h1>
         </section>
+        <ProjectShowcase/>
     </main>
   )
 }
