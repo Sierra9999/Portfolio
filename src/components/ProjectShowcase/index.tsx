@@ -42,7 +42,7 @@ const ProjectShowcase = () => {
     <>
       <h1 className={styles["portfolio-title"]}>Portfolio</h1>
       <section className={styles["projects"]}>
-        {projects.map(project => <ProjectCard key={React.useId()} {...project}/>)}
+        {projects.map(project => <ProjectCard key={project.name} {...project}/>)}
       </section>
     </>
   );
