@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: $primary-color;
+  background-color: $secondary-color;
+  padding: 0rem 5px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+p::first-letter{
+  font-size: 2em; /* Adjust the font size as needed */
+  float: left;
+  margin-right: 0.1em; /* Adjust the margin for spacing */
+  line-height: 1.2; /* Adjust line height for better vertical alignment */
+}
