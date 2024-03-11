@@ -1,0 +1,17 @@
+@keyframes slide-from-top {
+    0% {
+        transform: translatey(-100px);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(20px);
+        opacity: 1;
+    }
+    100%{
+
+    }
+}
+
+.slide-from-top{
+    animation: slide-from-top 1s normal ;
+}

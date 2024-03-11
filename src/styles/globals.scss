@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -10,7 +11,7 @@ body {
   overflow-x: hidden;
   color: $primary-color;
   background-color: $secondary-color;
-  padding: 0rem 5px;
+  padding: 0rem 8px;
 }
 
 a {
