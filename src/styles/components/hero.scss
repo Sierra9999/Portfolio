@@ -1,0 +1,22 @@
+.hero{
+    height: 100vh;
+    align-items: center;
+    @include breakpoint(medium){
+        padding: 0px 5rem;
+    }
+    &__text{
+        position: relative;
+        left : 0px;
+        h1{
+            font-size: 2.8rem;
+        }
+        @include breakpoint(medium){
+            width: 45vw;
+            top: 10%;
+        }
+    }
+    &__text::first-letter{
+        color: red;
+        font-size: 5rem;
+    }
+}

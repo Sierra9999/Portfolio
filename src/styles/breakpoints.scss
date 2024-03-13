@@ -1,0 +1,22 @@
+
+$breakpoints: (
+  small: (min: 0px, max: 767px),
+  medium: (min: 768px),
+  large: (min: 1024px),
+  xlarge: (min: 1200px)
+);
+
+@mixin breakpoint($condition) {
+  $min: map-get(map-get($breakpoints, $condition), min);
+  $max: map-get(map-get($breakpoints, $condition), max);
+
+  @if $max == null {
+    @media screen and (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @media screen and (min-width: $min) and (max-width: $max) {
+      @content;
+    }
+  }
+}
