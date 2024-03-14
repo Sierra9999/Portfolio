@@ -22,7 +22,6 @@
 .marquee__slider {
     white-space: nowrap;
     animation: slide 10s linear infinite;
-    animation-delay: 5s ;
     display: inline-block;
     width: fit-content;
 }
@@ -43,5 +42,5 @@
 }
 
 .marquee:hover .marquee__slider{
-    animation-play-state: running;
+    animation-play-state: paused;
 }
