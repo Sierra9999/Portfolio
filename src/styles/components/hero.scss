@@ -15,7 +15,7 @@
         }
     }
     &__text::first-letter{
-        color: red;
+        color: $accent-color;
         font-size: 5rem;
     }
 }

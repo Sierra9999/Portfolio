@@ -16,7 +16,7 @@ const Portfolio = () => {
         <h1>PORTFOLIO</h1>
     </div>
     <section className='projects'>
-      {projectList.map(project => <Card {...project} />)}
+      {projectList.map((project, index) => <Card key={index} {...project} />)}
     </section>
     </>
   )
