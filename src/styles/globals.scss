@@ -19,10 +19,3 @@ a {
 ul{
   list-style: none;
 }
-
-p::first-letter{
-  font-size: 2em; /* Adjust the font size as needed */
-  float: left;
-  margin-right: 0.1em; /* Adjust the margin for spacing */
-  line-height: 1.2; /* Adjust line height for better vertical alignment */
-}

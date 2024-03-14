@@ -1,0 +1,32 @@
+.projects{
+    height: 100vh;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: #FFC901;
+    border: 1.5px solid black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    &__title{
+        font-size: 2rem;
+    }
+    &__description {
+        font-size: 20px;
+    }
+}
+
+.button {
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border: 1.5px solid black;
+    border-radius: 5rem;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+.button:hover{
+    box-shadow: 3px 3px #000;
+    transform: translate(-0.25rem, -0.25rem);
+}
