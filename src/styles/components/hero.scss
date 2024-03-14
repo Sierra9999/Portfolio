@@ -3,10 +3,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    @include breakpoint(medium){
-        padding: 0px 5rem;
-        text-align: left;
-    }
+    text-align: left;
     &__text{
         position: relative;
         h1{

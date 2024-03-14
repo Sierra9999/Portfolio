@@ -1,15 +1,28 @@
 import React from 'react'
 
-const Card = () => {
+export interface CardProps {
+  title : string
+  description : string
+  imgPath : string
+  repoUrl : string
+  liveDemoUrl : string
+}
+
+export const Card : React.FC<CardProps> = ({
+  description,
+  imgPath,
+  liveDemoUrl,
+  repoUrl,
+  title
+}) => {
   return (
-    <section className='projects'>
       <article className='card'>
-        <h1 className='card__title'>Activos Gym</h1>
-        <p className='card__description'>Website for a gym, pricing and BMI calculator included</p>
-        <a href="#" target='_blank' className='button'>live demo</a>
-        <a href="#" target='_blank' className='button'>repo</a>
+        <h1 className='card__title'>{title}</h1>
+        <img src={imgPath} alt="" />
+        <p className='card__description'>{description}</p>
+        <a href={liveDemoUrl} target='_blank' className='button'>live demo</a>
+        <a href={repoUrl} target='_blank' className='button'>repo</a>
       </article>
-    </section>
   )
 }
 

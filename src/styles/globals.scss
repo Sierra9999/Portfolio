@@ -19,3 +19,9 @@ a {
 ul{
   list-style: none;
 }
+
+section{
+  @include breakpoint(medium){
+    padding: 0px 5rem;
+}
+}

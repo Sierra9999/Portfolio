@@ -9,7 +9,6 @@ export default function Home() {
       <Hero/>
       <Marquee/>
       <Portfolio/>
-      <Card/>
     </main>
   );
 }
