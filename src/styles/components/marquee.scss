@@ -1,0 +1,47 @@
+.marquee {
+    color: $secondary-color;
+    background-color: $primary-color;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 1rem 0rem;
+}
+
+.separator{
+    font-size: 3rem;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%) ;
+    }
+}
+
+.marquee__slider {
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+    animation-delay: 5s ;
+    display: inline-block;
+    width: fit-content;
+}
+
+.marquee__slider > *{
+    display: inline-block;
+    &::before{
+        content: " ";
+        height: 0.3rem;
+        position: relative;
+        top: -0.5rem;
+        width: 1rem;
+        display: inline-block;
+        background-color: $secondary-color;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+}
+
+.marquee:hover .marquee__slider{
+    animation-play-state: running;
+}
