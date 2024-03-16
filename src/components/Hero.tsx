@@ -6,7 +6,7 @@ const Hero = () => {
       <h1></h1>
       <div className="hero__text slide-from-left">
         <h1>FRONTEND DEVELOPER. BASED IN MEDELLIN.</h1>
-        <h3>FRONTEND SHOPIFY NEXT.JS</h3>
+        <h3>FRONTEND - SHOPIFY - NEXT.JS</h3>
       </div>
     </section>
   );

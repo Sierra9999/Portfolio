@@ -1,9 +1,9 @@
 import Header from '@/components/Header'
 import '../styles/main.scss'
 import type { Metadata } from 'next'
-import { Baskervville } from 'next/font/google'
+import { Work_Sans } from 'next/font/google'
 
-const inter = Baskervville({ weight:'400', subsets : ["latin"]})
+const inter = Work_Sans({ weight:'600', subsets : ["latin"]})
 
 export const metadata: Metadata = {
   title: 'Create Next App',

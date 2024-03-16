@@ -1,0 +1,19 @@
+.footer {
+    background-color: $primary-color;
+    color: $secondary-color;
+    position: relative;
+    padding: 5rem 1rem ;
+    &__title{
+        font-size: 3rem;
+    }
+    &__message{
+        font-size: 2rem;
+    }
+    &__cta{
+        text-decoration: underline;
+        font-size: 2rem;
+    }
+}
+
+
+
