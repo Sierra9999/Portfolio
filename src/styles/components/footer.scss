@@ -1,8 +1,9 @@
 .footer {
-    background-color: $primary-color;
-    color: $secondary-color;
+    color: $primary-color;
+    background: $secondary-color;
     position: relative;
     padding: 5rem 1rem ;
+    height: 100vh;
     &__title{
         font-size: 3rem;
     }
