@@ -5,7 +5,7 @@ const projectList : Array<CardProps> = [
   {
     title : 'Activos Gym',
     imgPath : '',
-    description : 'a gym page',
+    description : 'Elevate your fitness journey with our personalized workouts and supportive community.',
     liveDemoUrl : 'https://activos-gym.vercel.app/',
     repoUrl : 'https://github.com/Sierra9999/activos-gym',
   }
