@@ -1,38 +1,26 @@
 header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    /* From https://css.glass */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+position: fixed;
+width: 100%;
+border-bottom: 2px solid white;
 }
 
 header .top-section{
-    text-align: center;
     padding: 1rem 1rem;
-    width: 100%;
 }
-
-header .top-section h1 {
-    font-size: 4rem;
-}
-
-header .top-section h3{
-    text-align: center;
-}
-
 .main-navigation{
-    border-top: 2px solid $primary-color;
-    border-bottom: 2px solid $primary-color;
-    width: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-
+    align-items: center;
 
     ul{
         li{
-            border-left: 1px solid $primary-color;
-            border-right: 1px solid $primary-color;
-            width: fit-content;
-            padding: 1rem 2rem;
+            padding: 1rem 1rem;
             &:hover {
                 background-color: $accent-color;
                 color: $secondary-color;

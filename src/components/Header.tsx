@@ -5,7 +5,6 @@ const Header = () => {
     <header>
       <div className="slide-from-top top-section">
         <h1>Mateo Sierra</h1>
-        <h3>web developer, shopify & more</h3>
       </div>
       <nav className="main-navigation">
         <ul>

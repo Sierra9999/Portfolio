@@ -1,18 +1,14 @@
 .hero{
-    height: 72vh;
+    height: 100vh;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
     text-align: left;
     &__text{
-        position: relative;
-        top: 5%;
         h1{
             font-size: 2.8rem;
         }
         @include breakpoint(medium){
             width: 45vw;
-            top: 10%;
         }
     }
     &__text::first-letter{
