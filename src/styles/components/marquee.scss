@@ -5,11 +5,6 @@
     white-space: nowrap;
     padding: 1rem 0rem;
 }
-
-.separator{
-    font-size: 3rem;
-}
-
 @keyframes slide {
     from{
         transform: translateX(0);
@@ -29,7 +24,7 @@
 .marquee__slider > *{
     display: inline-block;
     &::before{
-        content: " ";
+        content: "";
         height: 0.3rem;
         position: relative;
         top: -0.5rem;

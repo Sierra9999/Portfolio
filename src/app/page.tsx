@@ -10,7 +10,7 @@ export default function Home() {
       <Intro/>
       <Hero/>
       <Marquee/>
-      {/* <Portfolio/> */}
+      <Portfolio/>
       <Footer/>
     </main>
   );
