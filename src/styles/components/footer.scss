@@ -2,6 +2,9 @@
     color: $primary-color;
     background: $secondary-color;
     padding: 150px 1rem 0rem 1rem  ;
+    @include breakpoint(medium){
+        margin: 3rem 1rem;
+    }
     height: 100vh;
     text-align: left;
     display: flex;
@@ -9,12 +12,18 @@
     align-items: center;
     &__phone-number, &__mail{
         display: block;
-        font-size: 1.5rem;
+        font-size: 5vw;
         margin: 1rem 0rem;
+        @include breakpoint(medium){
+            font-size: 8vh;
+        }
     }
     &__title{
-        font-size: 3.5rem;
+        font-size: 15vw;
         @include breakpoint(medium){
+            font-size: 16vh;
+        }
+        @include breakpoint(large){
             font-size: 20vh;
         }
     }

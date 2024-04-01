@@ -6,9 +6,9 @@ const Hero = () => {
       <div className="hero__text slide-from-left">
         <h1>
           <span className="hero__text__name">Mateo Sierra.<br/></span>
-          <span className="hero__text__developer" >Web Developer.<br/></span>
-          <span className="hero__text__shopify">Shopify Theme Developer.<br/></span> 
-          <span className="hero__text__based">Based In <span className="city">Medellín.</span><br/></span>
+          <span className="hero__text__developer blue-gradient" >Web Developer.<br/></span>
+          <span className="hero__text__shopify green-gradient">Shopify Theme Developer.<br/></span> 
+          <span className="hero__text__based">Based In <span className="red-gradient">Medellín.</span><br/></span>
         </h1>
       </div>
       <a href="#contact" className="lets-talk">Let's Talk →</a>

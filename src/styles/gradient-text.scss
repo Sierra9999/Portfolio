@@ -1,0 +1,23 @@
+.red-gradient {
+    background: #EC0F97;
+    background: linear-gradient(to right, #EC0F97 0%, #CF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+}
+
+.green-gradient{
+
+    background: #0B6831;
+    background: linear-gradient(to right, #0B6831 0%, #29CF21 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blue-gradient{
+    background: #2269EC;
+    background: linear-gradient(to right, #2269EC 0%, #1DCFCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
