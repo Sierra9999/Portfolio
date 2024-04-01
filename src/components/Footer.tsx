@@ -4,10 +4,15 @@ import Socials from './Socials'
 const Footer = () => {
   return (
     <footer id='contact' className='footer'>
-        <h1 className='footer__title'>LET&apos;S CONNECT</h1>
-        <p className='footer__message'>Do you have a project in mind? </p>
-        <a href="mailto:m.sierra1037@hotmail.com" className='footer__cta get-in-touch'>let&apos;s get in touch!</a>
+      <div>
+      <h1 className='footer__title'>Contact Me,</h1>
+        <h1 className='footer__title'>Let&apos;s talk.</h1>
+        <a href="mailto:m.sierra1037@hotmail.com" className='footer__mail'>m.sierra1037@hotmail.com</a>
+        <a href="mailto:m.sierra1037@hotmail.com" className='footer__phone-number'>+57 301 488 9182</a>
+        
         <Socials/>
+      </div>
+
     </footer>
   )
 }

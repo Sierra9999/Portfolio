@@ -1,18 +1,22 @@
 .footer {
     color: $primary-color;
     background: $secondary-color;
-    position: relative;
-    padding: 5rem 1rem ;
+    padding: 150px 1rem 0rem 1rem  ;
     height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__phone-number, &__mail{
+        display: block;
+        font-size: 1.5rem;
+        margin: 1rem 0rem;
+    }
     &__title{
-        font-size: 3rem;
-    }
-    &__message{
-        font-size: 2rem;
-    }
-    &__cta{
-        text-decoration: underline;
-        font-size: 2rem;
+        font-size: 3.5rem;
+        @include breakpoint(medium){
+            font-size: 20vh;
+        }
     }
 }
 
