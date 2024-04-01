@@ -1,18 +1,65 @@
-.hero{
+.hero {
     height: 100vh;
     display: flex;
-    align-items: center;
-    text-align: left;
-    &__text{
-        h1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    &__text {
+        width: 100%;
+
+        h1 {
             font-size: 2.8rem;
         }
-        @include breakpoint(medium){
+
+        &__name {
+            font-size: 5rem;
+        }
+
+        &__developer {
+            background: #2269EC;
+            background: linear-gradient(to right, #2269EC 0%, #1DCFCC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        &__shopify {
+            background: #0B6831;
+            background: linear-gradient(to right, #0B6831 0%, #29CF21 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        &__based {
+            .city {
+                background: #EC0F97;
+                background: linear-gradient(to right, #EC0F97 0%, #CF0000 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-size: 3.5rem;
+            }
+        }
+
+        @include breakpoint(medium) {
             width: 45vw;
         }
+
     }
-    &__text::first-letter{
-        color: $accent-color;
-        font-size: 5rem;
+
+    .lets-talk {
+        padding: 1rem 2rem;
+        border-radius: 3rem;
+        background-color: $primary-color;
+        color: $secondary-color;
+        &::after{
+            content: "";
+            width: 100%;
+            height: 3px;
+            background-color: $secondary-color;
+            position: relative;
+            display: block;
+        }
     }
+
 }
