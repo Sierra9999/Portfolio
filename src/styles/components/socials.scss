@@ -1,0 +1,19 @@
+.socials{
+    display: flex;
+
+    svg{
+        height: 50px;
+        width: auto;
+        transition: transform 0.2s;
+        margin: 0rem 1.5rem 0rem 0rem;
+        @include breakpoint (medium){
+            margin: 0rem 2rem 0rem 0rem;
+            height: 75px;
+            width: auto;
+        }
+    }
+    a:hover svg{
+        fill: #EC0F97;
+        transform: scale(1.1);
+    }
+}

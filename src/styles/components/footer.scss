@@ -3,7 +3,7 @@
     background: $secondary-color;
     padding: 150px 1rem 0rem 1rem  ;
     @include breakpoint(medium){
-        margin: 3rem 1rem;
+        padding: 80px 1rem 0rem 1rem  ;
     }
     height: 100vh;
     text-align: left;
@@ -12,7 +12,7 @@
     align-items: center;
     &__phone-number, &__mail{
         display: block;
-        font-size: 5vw;
+        font-size: 7vw;
         margin: 1rem 0rem;
         @include breakpoint(medium){
             font-size: 8vh;

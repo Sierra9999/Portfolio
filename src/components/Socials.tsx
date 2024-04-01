@@ -1,15 +1,22 @@
 import React from "react";
-import { SocialIcon } from "./Icons";
+import { Icon } from "./Icons";
 const Socials = () => {
   return (
     <div className="socials">
-      <a target="_blank" href="https://www.linkedin.com/in/mateo-sierra-4b70951b7/">
-        <SocialIcon iconName="linkedin" />
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/mateo-sierra-4b70951b7/">
+        <Icon iconName="linkedin" />
       </a>
       <a target="_blank" href="https://github.com/Sierra9999 ">
-      <SocialIcon iconName="github" />
+        <Icon iconName="github" />
       </a>
-
+      <a target="_blank" href="https://t.me/MateoSierraB">
+        <Icon iconName="telegram" />
+      </a>
+      <a target="_blank" href="https://wa.me/573014889182">
+        <Icon iconName="whatsapp" />
+      </a>
     </div>
   );
 };
