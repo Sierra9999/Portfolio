@@ -11,7 +11,7 @@ const Hero = () => {
           <span className="hero__text__based">Based In <span className="red-gradient">Medellín.</span><br/></span>
         </h1>
       </div>
-      <a href="#contact" className="lets-talk">Let's Talk →</a>
+      <a href="#contact" className="lets-talk">Let&apos;s Talk →</a>
     </section>
   );
 };
