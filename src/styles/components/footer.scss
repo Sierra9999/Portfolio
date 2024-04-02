@@ -15,16 +15,16 @@
         font-size: 7vw;
         margin: 1rem 0rem;
         @include breakpoint(medium){
-            font-size: 8vh;
+            font-size: 6vw;
         }
     }
     &__title{
         font-size: 15vw;
         @include breakpoint(medium){
-            font-size: 16vh;
+            font-size: 7rem;
         }
         @include breakpoint(large){
-            font-size: 20vh;
+            font-size: 9rem;
         }
     }
 }
