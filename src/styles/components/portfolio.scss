@@ -1,13 +1,20 @@
 .portfolio{
-    padding: 0rem 3rem;
+    padding: 0rem 1rem;
+    @include breakpoint(medium) {
+        padding: 0rem 3rem;
+    }
     h1{
         margin: 0;
         padding: 3rem 0rem;
-        font-size: 7rem;
+        font-size: 15vw;
         letter-spacing: -5px;
+        @include breakpoint(medium) {
+            font-size: 7rem;
+        }
     }
 }
 
 .projects {
     min-height: 100vh;
+    padding: 0;
 }
