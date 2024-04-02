@@ -6,6 +6,7 @@
         width: auto;
         transition: transform 0.2s;
         margin: 0rem 1.5rem 0rem 0rem;
+        fill: $primary-color;
         @include breakpoint (medium){
             margin: 0rem 2rem 0rem 0rem;
             height: 75px;
