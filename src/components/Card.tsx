@@ -28,7 +28,7 @@ export const Card: React.FC<CardProps> = ({
             target="_blank"
             className="card__button gradient-bg-blue"
           >
-            Live Demo
+            Demo
           </a>
           <a
             href={repoUrl}

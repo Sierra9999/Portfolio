@@ -9,17 +9,17 @@ const Header = () => {
       <nav className="main-navigation">
         <ul>
           <li>
-            <a href="">ABOUT</a>
+            <a href="">About</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#contact">CONTACT</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
