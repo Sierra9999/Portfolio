@@ -1,59 +1,41 @@
 .hero {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    text-align: left;
-    width: fit-content;
-
-    &__name , &__focusing {
-        font-size: 5rem;
-        text-transform: uppercase;
-        @include breakpoint (medium){
-            font-size: 10vw;
-        }
-    }
-    &__bottom-text {
-        font-size: 9vw;
-    }
-    &__focusing{
+    padding: 0;
+    padding-top: 100px;
+    text-align: center;
+    &__content{
         display: flex;
-        width: 100%;
         flex-direction: column;
-        justify-content: space-between;
-        @include breakpoint (medium){
-            flex-direction: row;
-        }
-    }
-
-
-    &__bottom{
-        width: 100%;
-        display: flex;
         align-items: flex-start;
-        justify-content: space-between;
-    }
-    .service{
-        font-size: 4rem;
-        @include breakpoint(medium){
-            font-size: 5vw;
-        }
-    }
-    .lets-talk {
-        padding: 1rem 2rem;
-        border-radius: 3rem;
-        background-color: $primary-color;
-        color: $secondary-color;
-
-        &::after {
-            content: "";
-            width: 100%;
-            height: 3px;
-            background-color: $secondary-color;
-            position: relative;
+        justify-content: center;
+        padding-left: 1rem;
+        & > * {
             display: block;
+            width: 100%;
         }
     }
-
+    &__marquee{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    &__name {
+        text-align: start;
+        font-size: 12vw;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        @include breakpoint (medium ){
+            font-size: 6rem;
+        }
+    }
+    &__focusing ,&__location{
+        font-size: 2rem ;
+        padding-right: 1rem;
+        text-align: end;
+        @include breakpoint (medium ){
+            font-size: 4rem;
+            padding-right: 3rem;
+        }
+    }
 }
