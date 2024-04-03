@@ -12,7 +12,7 @@
         align-items: flex-start;
         justify-content: center;
         padding-left: 1rem;
-        padding-right: 3rem;
+        padding-right: 5vw;
 
         & > * {
             display: block;
@@ -27,21 +27,24 @@
     }
     &__name {
         text-align: start;
-        font-size: 10vw;
+        font-size: 12vw;
         margin-bottom: 1rem;
         text-transform: uppercase;
         @include breakpoint (medium ){
             font-size: 5rem;
         }
         @include breakpoint (large ){
-            font-size: 7rem;
+            font-size: 10vw;
         }
     }
     &__focusing ,&__location{
-        font-size: 7vw ;
+        font-size: 2rem ;
         text-align: end;
         @include breakpoint (medium ){
             font-size: 3rem;
+        }
+        @include breakpoint (large ){
+            font-size: 4vw;
         }
     }
 

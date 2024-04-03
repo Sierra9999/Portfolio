@@ -52,7 +52,7 @@ $duration :1s;
 }
 
 .slide-from-left{
-    animation: slide-from-left $duration forwards;
+    animation: slide-from-left $duration ease-out;
 }
 
 .slide-from-bottom{
@@ -68,6 +68,10 @@ $duration :1s;
 }
 .animation-duration-2{
     animation-duration: 2s;
+}
+
+.animation-duration-3{
+    animation-duration: 3s;
 }
 
 
