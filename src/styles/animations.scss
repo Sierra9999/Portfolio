@@ -31,6 +31,26 @@ $duration :1s;
     }
 }
 
+@keyframes  bouncing {
+    0%{
+        transform: translateY(0);
+    }
+    33%{
+        transform: translateY(-2rem);
+    }
+    66%{
+        transform: translateY(1rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.bounce{
+    position: absolute;
+    animation: bouncing 3s infinite;
+}
+
 .slide-from-left{
     animation: slide-from-left $duration forwards;
 }

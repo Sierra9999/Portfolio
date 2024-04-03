@@ -9,6 +9,8 @@
         align-items: flex-start;
         justify-content: center;
         padding-left: 1rem;
+        padding-right: 3rem;
+
         & > * {
             display: block;
             width: 100%;
@@ -22,20 +24,55 @@
     }
     &__name {
         text-align: start;
-        font-size: 12vw;
+        font-size: 10vw;
         margin-bottom: 1rem;
         text-transform: uppercase;
         @include breakpoint (medium ){
-            font-size: 6rem;
+            font-size: 5rem;
+        }
+        @include breakpoint (large ){
+            font-size: 7rem;
         }
     }
     &__focusing ,&__location{
-        font-size: 9vw ;
-        padding-right: 1rem;
+        font-size: 7vw ;
         text-align: end;
         @include breakpoint (medium ){
-            font-size: 3.5rem;
-            padding-right: 3rem;
+            font-size: 3rem;
         }
+    }
+
+    &__cta-button {
+        border: solid 1px $primary-color;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        display: inline-block;
+        width: fit-content;
+        align-self: flex-end;
+        margin-top: 1rem;
+        animation: swing 1s infinite;
+        color: $secondary-color;
+        background-color: $primary-color;
+        transition: all 0.2s;
+        &::after{
+            content: "→";
+            margin: 0rem 0rem 0rem 0.5rem;
+        }
+        &:hover{
+            color: $primary-color;
+            background: linear-gradient(to right, #EC0F97 0%, #CF0000 100%);
+        }
+    }
+}
+
+@keyframes swing {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(-20px);
+    }
+    100%{
+
     }
 }
