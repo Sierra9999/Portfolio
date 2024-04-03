@@ -6,11 +6,10 @@ header {
   z-index: 1000;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8px);
+  background-color: rgba($color: #464646, $alpha: 0.2);
   -webkit-backdrop-filter: blur(11.3px);
-}
-
-header .top-section {
-  padding: 1rem 1rem;
+  border-bottom: solid 2px rgba($color: #b6b6b6, $alpha: 0.2);
+  padding: 1rem 0rem;
 }
 
 .main-navigation {
@@ -19,12 +18,11 @@ header .top-section {
   align-items: center;
 
   ul {
+    padding-right: 1rem;
     li {
-      padding: 1rem 1rem;
-
       &:hover {
-        background-color: $accent-color;
-        color: $secondary-color;
+        text-decoration: underline;
+        color: $accent-color;
       }
     }
   }
