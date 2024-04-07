@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Icon } from "./Icons";
 export interface CardProps {
   title: string;
   description: string;
@@ -20,7 +19,7 @@ export const Card: React.FC<CardProps> = ({
     <article className="card">
       <Image src={imgPath} alt="" width={400} height={200} />
       <div className="card__information">
-        <h1 className="card__title">{title}</h1>
+        <h3 className="card__title">{title}</h3>
         <p>{description}</p>
         <span className="card__buttons">
           <a

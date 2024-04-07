@@ -8,7 +8,7 @@ const inter = Work_Sans({ weight:'600', subsets : ["latin"]})
 
 export const metadata: Metadata = {
   title: 'Mateo Sierra',
-  description: 'Discover the portfolio of a skilled young web developer based in Medellín, Colombia. With a focus on crafting elegant and functional websites, he excels in making an impact through his innovative approach to web development. Explore how his accomplished work can elevate your online presence.',
+  description: 'Maximize your online impact with a Medellín-based web developer. Specializing in captivating frontends that drive results.',
 }
 
 export default function RootLayout({
