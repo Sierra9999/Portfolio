@@ -18,6 +18,8 @@ const OpenGraph = () => {
       <meta property="og:image" content={imgUrl} />
       <meta property="og:image:width" content="500" />
       <meta property="og:image:height" content="300" />
+      <meta name='author' content='Mateo Sierra' />
+        <meta name='language' content='English' />
     </head>
   );
 };
