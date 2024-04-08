@@ -12,7 +12,7 @@ const OpenGraph = () => {
   return (
     <head>
       <meta property="og:title" content="Mateo Sierra ⭕" />
-      <meta property="og:type" content="website" />
+      <meta property="og:type" content="article" />
       <meta property="og:url" content={domain} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imgUrl} />
