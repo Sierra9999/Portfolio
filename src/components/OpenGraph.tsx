@@ -4,10 +4,10 @@ const OpenGraph = () => {
   const { description, domain, imgUrl, title,creator } = {
     domain: "https://sierramateo.com/",
     description:
-      "Explore the creative journey of Mateo Sierra, showcasing a portfolio filled with innovative designs and captivating projects. Discover the essence of excellence in every pixel and line.",
+      "Maximize your online impact with a Medellín-based web developer. Specializing in captivating frontends that drive results.",
     imgUrl:
-      "https://static.semrush.com/blog/uploads/media/6e/d7/6ed7dd7a5dec745021d9fe5bdf88aff6/629ce5cabb805588b7b30c52c16e8598/meta-tag-sm.png",
-    title: "Mateo Sierra ⭕",
+      "https://cdn.discordapp.com/attachments/1227031906751746048/1227032058141085716/open-graph.jpg?ex=6626eda7&is=661478a7&hm=7d839df48a8430be92aaedadedb5d05407299a03bf65df346aeb8a22ebe6826a&",
+    title: "Mateo Sierra ⭕ - Front-End & Shopify Developer ",
     creator : 'Mateo Sierra'
   };
 
