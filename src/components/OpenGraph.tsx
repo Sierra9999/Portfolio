@@ -16,8 +16,10 @@ const OpenGraph = () => {
       <meta property="og:url" content={domain} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imgUrl} />
-      <meta property="og:image:width" content="500" />
-      <meta property="og:image:height" content="300" />
+      <meta property="og:site_name" content="sierramateo.com"/>
+      <meta property="og:locale" content="locale: en_US.utf-8"/>
+      <meta property="og:image:width" content="2000" />
+      <meta property="og:image:height" content="1200" />
       <meta name='author' content='Mateo Sierra' />
         <meta name='language' content='English' />
     </head>
