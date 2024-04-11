@@ -15,6 +15,13 @@ const projectList : Array<CardProps> = [
     description : 'A blog on software development with a focus on ecommerce solutions.',
     liveDemoUrl : 'https://www.synergywire.dev/',
     repoUrl : 'https://github.com/SynergyWire/SynergyWire-Blog',
+  },
+  {
+    title : "Worl'd countries SPA",
+    imgPath : '/Projects/countries-app.jpg',
+    description : 'A blog on software development with a focus on ecommerce solutions.',
+    liveDemoUrl : 'https://sierra9999.github.io/country-app/',
+    repoUrl : 'https://github.com/Sierra9999/country-app',
   }
 ]
 const Portfolio = () => {
