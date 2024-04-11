@@ -19,7 +19,7 @@ const projectList : Array<CardProps> = [
   {
     title : "Worl'd countries SPA",
     imgPath : '/Projects/countries-app.jpg',
-    description : 'A blog on software development with a focus on ecommerce solutions.',
+    description : 'As part of a frontend challenge from frontendmentor.io, A React SPA was developed connected to a public API displaying data from countries around the world.',
     liveDemoUrl : 'https://sierra9999.github.io/country-app/',
     repoUrl : 'https://github.com/Sierra9999/country-app',
   }
