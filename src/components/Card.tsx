@@ -17,7 +17,7 @@ export const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <article className="card">
-      <Image src={imgPath} alt={description} width={400} height={200} />
+      <Image src={imgPath} alt={description} loading="lazy" width={400} height={200} />
       <div className="card__information">
         <h3 className="card__title">{title}</h3>
         <p>{description}</p>
