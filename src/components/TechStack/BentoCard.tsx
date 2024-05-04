@@ -1,11 +1,11 @@
 import React from 'react'
-import { Icon } from '../Icons'
+import { Icon,IconProps } from '../Icons'
 
 const BentoCard : React.FC<{IconName : string}>  = ({IconName}) => {
   return (
     <div className='bento-card'>
-        <Icon iconName='github' size={65}></Icon>
-        <h1>{IconName}</h1>
+        <Icon iconName={IconName.toLowerCase() as IconProps['iconName']} size={65}></Icon>
+        <p className='bento-card__title'>{IconName}</p>
     </div>
   )
 }
